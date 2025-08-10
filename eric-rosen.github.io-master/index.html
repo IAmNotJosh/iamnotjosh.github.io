@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: solid;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 5px 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+
+      .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid rgb(255, 255, 255);
+        float: right;
+      }
+
+      .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid rgb(255, 255, 255);
+        float: right;
+      }
+    </style>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Eric Rosen's Website</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <header>
+        <center>
+        <h1>Eric Rosen</h1>
+        <img src="images/eric.png" alt="That's a picture of me, Eric Rosen!">
+        <p>eric.andrew.rosen@gmail.com</p>
+        <p>
+          <a href="https://scholar.google.com/citations?user=-9rlvZcAAAAJ&hl=en"><img src="images/google-scholar.png" height="50" alt="Link to my google scholar page"></a>
+          <a href="https://github.com/eric-rosen"><img src="images/github.png" height="50" alt="Link to my github page"></a>
+          <a href="https://www.youtube.com/channel/UCXy2F4cH7cJN5DztN_qC2og"><img src="images/youtube.png" height="50" alt="Link to my youtube page"></a>
+          <a href="https://twitter.com/_ericrosen?lang=en"><img src="images/twitter.png" height="50" alt="Link to my twitter page"></a>
+        </p>
+        <p>
+          <h2><u><a href="./index.html">Home</a></u></h2>
+          <h2><u><a href="./resume/resume.pdf">Resume</a></u></h2>
+          <h2><u><a href="./publications.html">Publications</u></h2>
+          <!--<h2><u>Notes</u></h2>
+          <h2><u>Blog</u></h2>-->
+        </p>
+
+        <p class="view"><small>Website made using the <a href="http://github.com/orderedlist/minimal">orderedlist/minimal</a> theme</small></p>
+      </center>
+      </header>
+      <section>
+        <h1>Welcome to my website!</h1>
+
+        <p>I am currently a research scientist at <a href="https://theaiinstitute.com/">Boston Dynamics AI Institue</a>. I previously completed my PhD in Computer Science at <a href="https://cs.brown.edu/">Brown University</a>, where I was co-advised by <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a> and <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a>.</p>
+
+        <h1>Interests</h1>
+        <button type="button" class="collapsible"><u>Research</u><div class="triangle-down"></div></button>
+        <div class="content">
+          <p>My research is motivated by the desire to have robots enter society and help/interact with people at large. My work has mostly focused on building effective algorithms and intuitive interfaces for robot learning, planning, and human-robot interaction. My PhD dissertation introduced methods for mobile manipulators to learn motor skills for manipulating objects, and symbols to support task planning, as well as mixed reality interfaces for enabling non-expert users to teach robots (You can watch my dissertation defense <a href="https://www.youtube.com/watch?v=tAmuRiSUMiQ">here</a>).</p>
+        </div>
+        
+        <button type="button" class="collapsible"><u>Personal</u><div class="triangle-down"></div></button>
+        <div class="content">
+          <p>I enjoy playing (video and board) games, watching movies, and going to farmers markets. 
+          I also love juggling (balls, pins and rings) and slacklining, especially at the same time.
+          I am also interested in STEM education, and enjoy making blogs/videos/interactive codebases about STEM-related concepts.
+          I also like to eat/drink cold sweets (e.g: icecream, ICEEs, frozen lemonade), and also own a personal shaved-iced machine.</p>
+        </div>
+
+        <br><br>
+
+        <h1>News</h1>
+        <p>Here is what I have been up to recently:</p>
+
+        <ul>
+          <li>2024: I was an <a href="https://www.ieee-ras.org/images/conferences/ICRA/2024/ICRA24_AssociateEditorList_Formated.pdf">Associate Editor for ICRA 2024 </a>, where I helped handle papers related to AI-Enabled Robotics and Deep Learning in Grasping and Manipulation</li>
+          <li>November 2023: I co-organized the <a href="https://leap-workshop.github.io/">CoRL 2023 Workshop: Learning Effective Abstractions for Planning (LEAP)</a></li>
+          <li>October 2023: I guest lectured for <a href="https://csci1410-2023.vercel.app/">CS1410: Introduction to Artificial Intelligence</a> at Brown Unviersity on <a href="https://csci1410-2023.vercel.app/static/media/1410_8.d5b261402419255d3bd2.pdf">Hidden Markov Models</a></li>
+          <li>June 2023: I started as a full-time Robotics Research Scientist at <a href="https://theaiinstitute.com/">Boston Dynamics AI Institue</a>.</li>
+          <li>May 2023: I successfully defened my PhD dissertation: <a href="https://www.youtube.com/watch?v=tAmuRiSUMiQ">Abstraction for Autonomous Human-Robot Interaction</a></li>
+        </ul>
+
+        <button type="button" class="collapsible"><u>Older news</u><div class="triangle-down"></div></button>
+        <div class="content">
+          <li>Spring 2022: I <a href="https://www.brown.edu/news/2022-06-06/choreorobotics">co-created and co-instructed</a> the course <b>Choreorobotics 0101</b> at Brown University. Read more about it <a href="https://www.brownalumnimagazine.com/articles/2023-01-17/making-robots-dance">here!</a></li>
+          <li>2022: I was a part-time robotics researcher at <a href="https://www.merl.com/">Mitsubishi Electric Research Laboratories (MERL)</a></li>
+          <li>2021: I did an extended R&D internship at <a href="https://about.meta.com/realitylabs/">Meta Reality Labs</a></li>
+          <li>Summer 2020: I did a summer R&D internship at <a href="https://www.uber.com/us/en/atg/research-and-development/perception-and-prediction/">Uber ATG</a></li>
+          <li>January 2019: Nakul Gopalan, Daniel Ullman, David Whitney and I won the <a href="https://cs.brown.edu/news/2019/01/18/nakul-gopalan-eric-rosen-daniel-ullman-david-whitney-win-hyundai-visionary-challenge/">Hyundai Visionary Challenge</a></li>
+          <li>May 2018: I received first place in the <a href="https://cs.brown.edu/news/2018/05/22/brown-cs-announces-winners-fourth-annual-undergraduate-research-symposium/">Annual Undergraduate CS Research Symposium</a> at Brown University</li>
+          <li>February 2018: I won a <a href="https://cs.brown.edu/news/2018/02/12/karamcheti-porncharoenwase-and-rosen-win-cra-outstanding-undergraduate-researcher-honorable-mentions/">CRA Outstanding Undergraduate Researcher Honorable Mention</a></li>
+          <li>Summer 2017: I did a summer R&D internship at <a href="https://www.amazon.jobs/en/teams/amazon-robotics">Amazon Robotics</a></li>
+        </div>
+
+        <br><br>
+        <h1>Featured Research</h1>
+        <table style="margin-top:-12px;">
+
+          <tr style="border-bottom:1px solid #e5e5e5;">
+            <!-- IMAGE -->
+            <td>
+                <img class="workPicture" src="images/tokcs2022.png" alt="A Tool for Organizing Key Characteristics of Virtual, Augmented, and Mixed Reality for Human–Robot Interaction Systems">
+            </td>
+
+            <!-- TITLE AND INFO -->
+            <td>
+                <br>
+                <div id="indexWorkText">
+                    <!-- Title + Link -->
+                    <b><a href="https://ieeexplore.ieee.org/document/9681717">A Tool for Organizing Key Characteristics of Virtual, Augmented, and Mixed Reality for Human-Robot Interaction Systems: Synthesizing VAM-HRI Trends and Takeaways</a> <a href="./papers/tokcs2022.pdf">[pdf]</a></b>
+                    <br>
+                    <i>IEEE Robotics & Automation Magazine 2022</i>
+                </div>
+                <br>
+                <!-- One sentence description -->
+                <div id="indexWorkText">
+                  We created a tool for organizing key characteristics of VAM-HRI systems.
+                </div>
+                <br>
+
+                <!-- Collaborators -->
+                <div id="indexWorkText">
+                  Joint work with Thomas R. Groechel, Michael E. Walker, Christine T. Chang, and Jessica Zosa Forde
+                </div>
+                <br>
+                <br>
+            </td>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- IMAGE -->
+          <td>
+              <img class="workPicture" src="images/bootstrapping2021.png" alt="Bootstrapping Motor Skill Learning with Motion Planning">
+          </td>
+
+          <!-- TITLE AND INFO -->
+          <td>
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9636661">Bootstrapping Motor Skill Learning with Motion Planning</a> <a href="./papers/bootstrapping2021.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IROS 2021</i>
+              </div>
+              <br>
+              <!-- One sentence description -->
+              <div id="indexWorkText">
+                We propose a method for learning in challenging dynamic object manipulation tasks.
+              </div>
+              <br>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Equally led with Ben Abbatematteo, joint work with Stefanie Tellex and George Konidaris
+              </div>
+              <br>
+              <br>
+          </td>
+      </tr>
+
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <!-- IMAGE -->
+        <td>
+            <img class="workPicture" src="images/bidirectional2020.png" alt="Mixed Reality as a Bidirectional Communication Interface for Human-Robot Interaction">
+        </td>
+
+        <!-- TITLE AND INFO -->
+        <td>
+            <br>
+            <div id="indexWorkText">
+                <!-- Title + Link -->
+                <b><a href="https://ieeexplore.ieee.org/document/9340822">Mixed Reality as a Bidirectional Communication Interface for Human-Robot Interaction</a> <a href="./papers/bidirectional2020.pdf">[pdf]</a></b>
+                <br>
+                <i>IROS 2020</i>
+                <br>
+                <i>Best HRI paper nominee</i>
+            </div>
+            <br>
+            <!-- One sentence description -->
+            <div id="indexWorkText">
+              We propose a multimodal algorithm for bidirectional human-robot interaction with mixed reality.
+            </div>
+            <br>
+
+            <!-- Collaborators -->
+            <div id="indexWorkText">
+              Equally led with David Whitney and Michael Fishman, joint work with Daniel Ullman and Stefanie Tellex
+            </div>
+            <br>
+            <br>
+        </td>
+    </tr>
+
+    <tr style="border-bottom:1px solid #e5e5e5;">
+      <!-- IMAGE -->
+      <td>
+          <img class="workPicture" src="images/communicating2019.png" alt="Communicating and controlling robot arm motion intent through mixed-reality head-mounted displays">
+      </td>
+
+      <!-- TITLE AND INFO -->
+      <td>
+          <br>
+          <div id="indexWorkText">
+              <!-- Title + Link -->
+              <b><a href="https://journals.sagepub.com/doi/pdf/10.1177/0278364919842925">Communicating and controlling robot arm motion intent through mixed-reality head-mounted displays</a> <a href="./papers/communicating2019.pdf">[pdf]</a></b>
+              <br>
+              <i>IJRR 2019</i>
+          </div>
+          <br>
+          <!-- One sentence description -->
+          <div id="indexWorkText">
+            We propose a mixed-reality visualization of the intended robot motion over the wearer's real-world view of the robot and its environment.
+          </div>
+          <br>
+
+          <!-- Collaborators -->
+          <div id="indexWorkText">
+            Equally led with David Whitney, joint work with Elizabeth Phillips, Gary Chien, James Tompkin, George Konidaris, and Stefanie Tellex
+          </div>
+          <br>
+          <br>
+      </td>
+  </tr>
+
+    </table>
+
+    <script src="javascripts/scale.fix.js"></script>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

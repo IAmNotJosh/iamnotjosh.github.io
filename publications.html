@@ -1,0 +1,687 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: solid;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 5px 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+
+      .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid rgb(255, 255, 255);
+        float: right;
+      }
+
+      .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid rgb(255, 255, 255);
+        float: right;
+      }
+    </style>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Eric Rosen's Website</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <header>
+        <center>
+        <h1>Eric Rosen</h1>
+        <img src="images/eric.png" alt="That's a picture of me, Eric Rosen!">
+        <p>eric.andrew.rosen@gmail.com</p>
+        <p>
+          <a href="https://scholar.google.com/citations?user=-9rlvZcAAAAJ&hl=en"><img src="images/google-scholar.png" height="50" alt="Link to my google scholar page"></a>
+          <a href="https://github.com/eric-rosen"><img src="images/github.png" height="50" alt="Link to my github page"></a>
+          <a href="https://www.youtube.com/channel/UCXy2F4cH7cJN5DztN_qC2og"><img src="images/youtube.png" height="50" alt="Link to my youtube page"></a>
+          <a href="https://twitter.com/_ericrosen?lang=en"><img src="images/twitter.png" height="50" alt="Link to my twitter page"></a>
+        </p>
+        <p>
+          <h2><u><a href="./index.html">Home</a></u></h2>
+          <h2><u><a href="./resume/resume.pdf">Resume</a></u></h2>
+          <h2><u><a href="./publications.html">Publications</u></h2>
+          <!--<h2><u>Notes</u></h2>
+          <h2><u>Blog</u></h2>-->
+        </p>
+
+        <p class="view"><small>Website made using the <a href="http://github.com/orderedlist/minimal">orderedlist/minimal</a> theme</small></p>
+      </center>
+      </header>
+      <section>
+
+      <h1>Journal Papers</h1>
+
+      <table style="margin-top:-12px;">
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://journals.sagepub.com/doi/pdf/10.1177/0278364919842925">Communicating and controlling robot arm motion intent through mixed-reality head-mounted displays</a> <a href="./papers/communicating2019.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IJRR 2019</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, David Whitney, Elizabeth Phillips, Gary Chien, James Tompkin, George Konidaris, Stefanie Tellex
+              </div>
+        </tr>
+      </table>
+      <br>
+
+      <h1>Conference Papers</h1>
+
+      <table style="margin-top:-12px;">
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/abs/2211.09935">CAPE: Corrective actions from precondition errors using large language models</a> <a href="./papers/cape_icra2024.pdf">[pdf]</a></b>
+                  <br>
+                  <i>ICRA 2024</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Shreyas Sundara Raman, Vanya Cohen, Ifrah Idrees, Eric Rosen, Ray Mooney, Stefanie Tellex, David Paulius
+              </div>
+        </tr>
+
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/abstract/document/10341492">Language-Conditioned Observation Models for Visual Object Search</a> <a href="./papers/lcom_iros2023.pdf">[pdf]</a><a href="https://www.youtube.com/watch?v=3Z4XQUQXCsY">[video]</a></b>
+                  <br>
+                  <i>IROS 2023</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Thao Nguyen, Vladislav Hrosinkov, Eric Rosen, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://openreview.net/forum?id=W8MjsxHrDpL">Synthesizing Navigation Abstractions for Planning with Portable Manipulation Skills</a> <a href="./papers/aosm_corl2023.pdf">[pdf]</a> <a href="./papers/aosm_corl23_supplementary.pdf">[supp]</a> <a href="https://www.youtube.com/watch?v=mnete3JteqE">[video]</a></b>
+                  <br>
+                  <i>CoRL 2023</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Steven James, Sergio Orozco, Vedant Gupta, Max Merlin, Stefanie Tellex, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9900563">Norm Learning with Reward Models from Instructive and Evaluative Feedback</a></b>
+                  <br>
+                  <i>RO-MAN 2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Eric Hsiung, Vivienne Bihe Chi, Bertram F. Malle
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9889498">Learning Reward Functions from a Combination of Demonstration and Evaluative Feedback</a> <a href="./papers/norms_hri2022.pdf">[pdf]</a></b>
+                  <br>
+                  <i>HRI 2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Hsiung, Eric Rosen, Vivienne Bihe Chi, Bertram F. Malle
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://dl.acm.org/doi/10.1109/IROS51168.2021.9636661">Bootstrapping Motor Skill Learning with Motion Planning</a> <a href="./papers/bootstrapping2021.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IROS 2021</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Ben Abbatematteo, Eric Rosen, Stefanie Tellex, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://dl.acm.org/doi/10.1145/3434074.3447210">A VR Teleoperation Suite with Manipulation Assist</a> <a href="./papers/vrsuite_hri2021.pdf">[pdf]</a></b>
+                  <br>
+                  <i>HRI Companion 2021</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Christian Barentine, Andrew McNay, Ryan Pfaffenbichler, Addyson Smith, Eric Rosen, Elizabeth Phillips
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/abstract/document/9106630">Comparing Virtual Reality Interfaces for the Teleoperation of Robots</a> <a href="./papers/SIEDS_2020.pdf">[pdf]</a></b>
+                  <br>
+                  <i>SIEDS 2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Rebecca Hetrick, Nicholas Amerson, Boyoung Kim, Eric Rosen, Ewart J. de Visser, Elizabeth Phillips
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9340822">Mixed Reality as a Bidirectional Communication Interface for Human-Robot Interaction</a> <a href="./papers/bidirectional2020.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IROS 2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, David Whitney, Michael Fishman, Daniel Ullman, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9223610">A General Methodology for Teaching Norms to Social Robots</a> <a href="./papers/roman2020.pdf">[pdf]</a></b>
+                  <br>
+                  <i>RO-MAN 2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Bertram F. Malle, Eric Rosen, Vivienne B. Chi, Matthew Berg, Peter Haas
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9341627">Building Plannable Representations with Mixed Reality</a></b>
+                  <br>
+                  <i>IROS 2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Nishanth Kumar, Nakul Gopalan, Daniel Ullman, George Konidaris, Stefanie Tellex
+              </div>
+        </tr>
+
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://par.nsf.gov/biblio/10224709-simultaneously-learning-transferable-symbols-language-groundings-from-perceptual-data-instruction-following">	Simultaneously Learning Transferable Symbols and Language Groundings from Perceptual Data for Instruction Following</a> <a href="./papers/rss2020.pdf">[pdf]</a></b>
+                  <br>
+                  <i>RSS 2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Nakul Gopalan, Eric Rosen, George Konidaris, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/8793988">End-User Robot Programming Using Mixed Reality</a> <a href="./papers/enduser.pdf">[pdf]</a></b>
+                  <br>
+                  <i>ICRA 2019</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Samir Yitzhak Gadre, Eric Rosen, Gary Chien, Elizabeth Phillips, Stefanie Tellex, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/8593513">ROS Reality: A Virtual Reality Framework Using Consumer-Grade Hardware for ROS-Enabled Robots</a> <a href="./papers/rosreality.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IROS 2018</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                David Whitney, Eric Rosen, Daniel Ullman, Elizabeth Phillips, Stefanie Tellex
+              </div>
+        </tr>
+
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/7989121">Reducing errors in object-fetching interactions through social feedback</a> <a href="./papers/reducing.pdf">[pdf]</a></b>
+                  <br>
+                  <i>ICRA 2017</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                David Whitney, Eric Rosen, James MacGlashan, Lawson L. S. Wong, Stefanie Tellex
+              </div>
+        </tr>
+
+
+      </table>
+      <br>
+
+      <h1>Magazine Publications</h1>
+
+      <table style="margin-top:-12px;">
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/document/9681717">A Tool for Organizing Key Characteristics of Virtual, Augmented, and Mixed Reality for Human–Robot Interaction Systems</a> <a href="./papers/tokcs2022.pdf">[pdf]</a></b>
+                  <br>
+                  <i>IEEE Robotics & Automation Magazine 2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Thomas R. Groechel, Michael E. Walker, Christine T. Chang, Eric Rosen, Jessica Zosa Forde
+              </div>
+        </tr>
+      </table>
+      <br>
+
+      <h1>Workshop Papers</h1>
+
+      <table style="margin-top:-12px;">
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://openreview.net/pdf?id=cMDMRBe1TKs">Planning with Large Language Models via Corrective Re-prompting</a> </b>
+                  <br>
+                  <i><a href="https://nips.cc/virtual/2022/workshop/49988">NeurIPS (Foundation Models for Decision Making) 2022</a> </i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Shreyas Sundara Raman, Vanya Cohen, Eric Rosen, Ifrah Idrees, David Paulius, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://openreview.net/forum?id=mZyo8s_GYP8">On the Role of Structure in Manipulation Skill Learning</a> </b>
+                  <br>
+                  <i><a href="https://gjstein.github.io/corl2022wkshp-long-horizon-planning/"> CoRL (Long-Horizon Planning) 2022 </a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Ben M Abbatematteo, Skye Thompson, Tuluhan Akbulut, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://openreview.net/forum?id=rglgNeUak5">Learning robot motor skills with mixed reality</a> </b>
+                  <br>
+                  <i><a href="https://vam-hri.github.io/previous/2022/">VAM-HRI 2022</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Sreehari Rammohan, Devesh K. Jha
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://sites.google.com/view/r4p2021/papers?authuser=0">Leveraging Temporal Structure in Safety-Critical Task Specifications for POMDP Planning</a> <a href="./papers/ltl-pomcp_rssw21.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://sites.google.com/view/r4p2021/overview?authuser=0">RSS (Robotics for People) 2021</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Jason Liu, Eric Rosen, S Zheng, S Tellex, G Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://openreview.net/forum?id=MN4e63wROn9">Manipulation Assist for Teleoperation in VR </a> <a href="./papers/assist_vamhri2021.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://vam-hri.github.io/previous/2021/">VAM-HRI 2021</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Christian_Michael_Barentine, Andrew McNay, Ryan Pfaffenbichler, Addyson Smith, Eric Rosen, Elizabeth Phillips
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://drive.google.com/file/d/1wkvAjfCSk1kqeb4_pzI6G3EYKLqOgQ7N/view?pli=1">Locally Observable Markov Decision Processes</a> <a href="./papers/lomdp_ws.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://mit-spark.github.io/PAL-ICRA2020/">ICRA (Perception, Action, Learning) 2020</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Max Merlin, Neev Parikh, Eric Rosen, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://drive.google.com/file/d/1wkvAjfCSk1kqeb4_pzI6G3EYKLqOgQ7N/view?pli=1">Knowledge acquisition for robots through mixed reality head-mounted displays</a> <a href="./papers/knowledge.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://vam-hri.github.io/previous/2019/info.html">VAM-HRI 2019</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Nishanth Kumar, Eric Rosen, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://drive.google.com/file/d/1wkvAjfCSk1kqeb4_pzI6G3EYKLqOgQ7N/view?pli=1">Testing robot teleoperation using a virtual reality interface with ROS reality</a> <a href="./papers/testing.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://vam-hri.github.io/previous/2018/#proceedings">VAM-HRI 2018</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, David Whitney, Elizabeth Phillips, Daniel Ullman, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://drive.google.com/file/d/1wkvAjfCSk1kqeb4_pzI6G3EYKLqOgQ7N/view?pli=1">Learning from Crowdsourced Virtual Reality Demonstrations</a> <a href="./papers/learning.pdf">[pdf]</a></b>
+                  <br>
+                  <i><a href="https://vam-hri.github.io/previous/2018/#proceedings">VAM-HRI 2018</a></i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                David Whitney, Eric Rosen, Stefanie Tellex
+              </div>
+        </tr>
+      </table>
+
+      <br>
+      <h1>Organized Workshops</h1>
+      <table style="margin-top:-12px;">
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://dl.acm.org/doi/abs/10.1145/3568294.3579959">The 6𝑡ℎ International Workshop on Virtual, Augmented, and Mixed Reality for Human-Robot Interaction (VAM-HRI)</a></b>
+                  <br>
+                  <i>HRI 2023</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Maciej Wozniak, Christine T Chang, Matthew B Luebbers, Bryce Ikeda, Michael Walker, Eric Rosen, Thomas Roy Groechel
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://ieeexplore.ieee.org/abstract/document/9889655">The 5𝑡ℎ International Workshop on Virtual, Augmented, and Mixed Reality for Human-Robot Interaction (VAM-HRI)</a> </b>
+                  <br>
+                  <i>HRI 2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Christine T Chang, Eric Rosen, Thomas R Groechel, Michael Walker, Jessica Zosa Forde
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://dl.acm.org/doi/abs/10.1145/3434074.3444879">The 4𝑡ℎ International Workshop on Virtual, Augmented, and Mixed Reality for Human-Robot Interaction (VAM-HRI)</a> </b>
+                  <br>
+                  <i>HRI 2021</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Thomas Groechel, Michael E Walker, Christine T Chang, Jessica Zosa Forde
+              </div>
+        </tr>
+      </table>
+
+      <br>
+      <h1>Preprints</h1>
+
+      <table style="margin-top:-12px;">
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/abs/2305.10960">A Virtual Reality Teleoperation Interface for Industrial Robot Manipulators</a> <a href="./papers/merl_2023.pdf">[pdf]</a></b>
+                  <br>
+                  <i>2023</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen and Devesh K. Jha
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/pdf/2207.07806.pdf">CHARM: A Hierarchical Deep Learning Model for Classification of Complex Human Activities Using Motion Sensors</a> </b>
+                  <br>
+                  <i>2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen and Doruk Senkal
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/abs/2206.05096">Skill Transfer for Temporally-Extended Task Specifications</a> </b>
+                  <br>
+                  <i>2022</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Jason Xinyu Liu, Ankit Shah, Eric Rosen, George Konidaris, Stefanie Tellex
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/abs/2107.13356">Value-Based Reinforcement Learning for Continuous Control Robotic Manipulation in Multi-Task Sparse Reward Settings</a> </b>
+                  <br>
+                  <i>2021</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Sreehari Rammohan, Shangqun Yu, Bowen He, Eric Hsiung, Eric Rosen, Stefanie Tellex, George Konidaris
+              </div>
+        </tr>
+
+        <tr style="border-bottom:1px solid #e5e5e5;">
+          <!-- TITLE AND INFO -->
+              <br>
+              <div id="indexWorkText">
+                  <!-- Title + Link -->
+                  <b><a href="https://arxiv.org/abs/2007.06218">Steps Towards Best Practices For Robot Videos</a> </b>
+                  <br>
+                  <i>2020</i>
+              </div>
+
+              <!-- Collaborators -->
+              <div id="indexWorkText">
+                Eric Rosen, Stefanie Tellex, Geroge Konidaris
+              </div>
+        </tr>
+      </table>
+
+
+      <script src="javascripts/scale.fix.js"></script>
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+  </body>
+</html>
